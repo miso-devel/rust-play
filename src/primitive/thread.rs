@@ -3,6 +3,7 @@ use std::{
     thread,
 };
 
+#[allow(dead_code)]
 fn main() {
     // スレッドの複数立ち上げ
     // let mut handlers = Vec::new();

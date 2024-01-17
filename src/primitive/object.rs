@@ -1,3 +1,4 @@
+#[allow(dead_code)]
 fn main() {
     println!("primitive/object!!!");
 
@@ -15,7 +16,7 @@ fn main() {
 
     impl Person {
         fn change_name(&self) -> String {
-            return self.name.clone() + "さん";
+            return self.name.to_string() + "さん";
         }
         fn change_age(&self) -> i32 {
             return self.age + 10;
