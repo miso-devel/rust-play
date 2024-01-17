@@ -1,5 +1,6 @@
 use std::{sync::mpsc, thread};
 
+#[allow(dead_code)]
 fn main() {
     let (tx, rx) = mpsc::channel();
     let handle = thread::spawn(move || {
